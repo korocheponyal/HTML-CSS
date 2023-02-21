@@ -327,3 +327,26 @@ ul {
     transform: translateX(30px);
 }
 
+.design__box{
+    max-width: 590px;
+    padding: 0 10px;
+    display: flex;
+
+    gap: 60px;
+    margin: 200px auto 150px;
+    /* margin: 150px auto; */
+}
+
+.design__box-text{
+    margin-bottom: 15px;
+}
+
+.design__box-column{
+    width: 255px;
+}
+
+.design__img{
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
